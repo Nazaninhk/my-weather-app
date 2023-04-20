@@ -1,0 +1,56 @@
+body {
+  font-family: "Merriweather", serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Sofia Sans", sans-serif;
+  border: 1px solid #3169b3;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 700px;
+}
+#input-City {
+  font-size: 30px;
+}
+#search-Butt {
+  width: min-content;
+}
+
+h1 {
+  color: green;
+  font-size: 30px;
+}
+ul {
+  margin-top: 10px;
+  list-style: none;
+  font-size: 20px;
+  font-weight: solid;
+}
+#temperature {
+  font-size: 40px;
+}
+units {
+  font-size: 40px;
+}
+.cityName {
+  font-size: 20px;
+}
+.tempreture {
+  margin-top: 20px;
+  padding: 50px;
+}
+.units {
+  margin-top: 20px;
+  padding: 50px;
+}
+#HumidityWind {
+  list-style: none;
+  text-align: center;
+}
+#click {
+  text-decoration: underline;
+}
+#click:hover {
+  cursor: pointer;
+  color: green;
+  font-size: 15px;
+}

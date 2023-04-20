@@ -1,0 +1,62 @@
+<!<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>Weather</title>
+  </head>
+  
+  <body>
+    <div class="container">
+      <form id="SearchCity">
+        
+            <input type="text" placeholder="Type a city" id="input-City"/>
+                 
+						<button type="button" class="btn btn-success w-200" id="search">Search</button>
+				
+    </form>
+      <h1 id="currentCityName">
+				Tehran
+               </h1>
+      <ul>
+        <li id="dayTime">
+						
+         </li>
+        <li id="description">
+						Clouds
+        </li>
+      </ul>
+      <span class="temperature" id="temperature">18°C</span
+        >
+<div class="col-6">
+ <ul id="HumidityWind">
+   <li id="humidity">
+			Humidity: 27%
+		
+   </li>
+   <li id="Wind">
+    	Wind: 0 km/h
+   </li>
+ </ul> 
+
+</div>
+<p>
+	To see your current location's weather <span class="click" id="click"><strong> Click here</strong></span>
+</p>
+    </div>
+    <script src="src/index.js">
+        
+    </script>
+  </div>
+
+  </body>
+</html>

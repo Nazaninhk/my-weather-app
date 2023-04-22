@@ -2,21 +2,36 @@ body {
   font-family: "Merriweather", serif;
   font-family: "Roboto", sans-serif;
   font-family: "Sofia Sans", sans-serif;
+  background-image: url("../src/main.png");
+  background-size: cover;
   border: 1px solid #3169b3;
   padding: 15px;
   margin: 20px auto;
   border-radius: 10px;
-  max-width: 700px;
-  max-height: 400px;
-  background-color: beige;
+  max-width: 720px;
+  max-height: 580px;
 }
 #input-City {
   font-size: 30px;
 }
-#search-Butt {
-  max-width: 30px;
+#search {
+  position: fixed;
+  margin-left: 10px;
 }
+#location {
+  position: fixed;
+  margin-left: 130px;
+  background-color: lightblue;
+  color: white;
 
+  border-radius: 10px;
+  font-weight: 300px;
+}
+#location:hover {
+  transition: 200ms ease-in-out;
+  color: #3169b3;
+  border: 1px solid;
+}
 h1 {
   color: green;
   font-size: 30px;
@@ -56,8 +71,63 @@ units {
   color: green;
   font-size: 15px;
 }
+#five-days {
+  margin-left: 10px;
+  font-size: 30px;
+}
+#sun-icon {
+  margin-left: 60px;
+}
+#mon-icon {
+  margin-left: 60px;
+}
+#tue-icon {
+  margin-left: 68px;
+}
+#wed-icon {
+  margin-left: 60px;
+}
+#thu-icon {
+  margin-left: 68px;
+}
 #git-Link {
-  font-size: medium;
+  font-size: 20px;
+}
+#sun:hover {
+  background: rgb(218, 218, 137);
+  max-width: 400px;
+
+  border-radius: 5px;
+}
+#sun:hover {
+  background: rgb(218, 218, 137);
+  max-width: 400px;
+
+  border-radius: 5px;
+}
+#mon:hover {
+  background: rgb(218, 218, 137);
+  max-width: 400px;
+
+  border-radius: 5px;
+}
+#tue:hover {
+  background: rgb(218, 218, 137);
+  max-width: 400px;
+
+  border-radius: 5px;
+}
+#wed:hover {
+  background: rgb(218, 218, 137);
+  max-width: 400px;
+
+  border-radius: 5px;
+}
+#thu:hover {
+  background: rgb(218, 218, 137);
+  max-width: 400px;
+
+  border-radius: 5px;
 }
 #nazanin {
   color: lightpink;

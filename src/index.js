@@ -52,5 +52,5 @@ function currentLocation(urllocation) {
   navigator.geolocation.getCurrentPosition(showData);
 }
 
-let current = document.querySelector("#click");
+let current = document.querySelector("#location");
 current.addEventListener("click", currentLocation);

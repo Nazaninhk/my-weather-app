@@ -1,4 +1,4 @@
-<!<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -13,17 +13,23 @@
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/styles.css" />
     <title>Weather</title>
+  
+    
   </head>
   
   <body>
     <div class="container">
+     
       <form id="SearchCity">
         
             <input type="text" placeholder="Type a city" id="input-City"/>
                  
-						<button type="button" class="btn btn-success w-100" id="search">Search</button>
+						<button type="button" class="btn btn-success btn-lg" id="search">Search</button>
+            <button type="button" class="btn btn-success btn-lg" id="location">current location</button>
+            
 				
     </form>
+    
       <h1 id="currentCityName">
 				Tehran
                </h1>
@@ -50,11 +56,25 @@
 
 </div>
 <p>
-	To see your current location's weather <span class="click" id="click"><strong><strong> Click here
-
-  </strong> </strong></span>
+  <strong>
+  <em> 5 day forecast</em>
+  </strong>
+  <ul id="five-days">
+    <li id="sun"> Sun <span id="sun-icon"> ☀</span></li>
+    <li id="mon">Mon <span id="mon-icon">🌤</span> </li>
+    <li id="tue">Tue <span id="tue-icon"> 🌧</span> </li>
+    <li id="wed">Wed <span id="wed-icon">🌦</span> </li>
+    <li id="thu">Thu <span id="thu-icon">🌤</span> </li>
+  </ul>
+  
+    </div>
+  </div>
 </p>
-<a href="https://github.com/Nazaninhk/my-weather-app"  target="_blank" id="git-Link">Open source-code</a><Span id="nazaznin"> by Nazanin Heidari</Span>
+<p>
+ 
+<a href="https://github.com/Nazaninhk/my-weather-app"  target="_blank" id="git-Link"><strong>  Open source-code</strong></a><Span id="nazaznin"> by Nazanin Heidari</Span>
+</p>
+
     </div>
     <script src="src/index.js">
         
